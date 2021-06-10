@@ -1,0 +1,114 @@
+.shop-container {
+    width:100%;
+    height:529px;
+    background-image: url(../../assets/images/shop.png);
+    background-size:100% 529px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.shop-container img {
+    cursor:pointer;
+}
+
+.shop-container-info {
+    width:100%;
+    height:290px;
+    display:flex;
+}
+
+.shop-product-price {
+    width:329px;
+    height:297px;
+    background-color:#27323D ;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    font-family: 'Montserrat';
+    color: #ffffff;
+}
+
+.shop-product-title {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.shop-product-price-title{
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Montserrat';
+}
+
+.button-shop{
+    background-color: transparent;
+    border:none;
+    font-family: 'Montserrat';
+    font-size:20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.shop-invoice{
+    display:flex;
+    flex-direction: column;   
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    font-size:36px
+}
+
+.button-shop-end{
+    background-color: transparent;
+    border:1px solid white;
+    font-family: 'Montserrat';
+    font-size:20px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius:10px;
+    margin-bottom: 9px;
+}
+
+.button-shop-end-new{
+    background-color: transparent;
+    border:1px solid white;
+    font-family: 'Montserrat';
+    font-size:20px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius:10px;
+
+}
+
+.button-shop :hover{
+    background-color: white;
+    color: transparent;
+    font-family: 'Montserrat';
+    font-size:20px;
+}
+
+.shop-price{
+    font-size:20px;
+    text-align:center;
+}
+
+.shop-invoice-new{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.shop-products {
+    background-color: #001426;
+    width:100%;
+    height:297px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}

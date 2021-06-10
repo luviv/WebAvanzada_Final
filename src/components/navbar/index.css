@@ -1,0 +1,21 @@
+.navbar-container{
+    height:171px;
+    width: 100%;
+    background-image: url(../../assets/images/nav.png);
+    background-size: 100% 171px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container img{
+    margin-left: 36px;
+}
+
+.navbar-container-title {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size:36px;
+    margin-right: 36px;
+}

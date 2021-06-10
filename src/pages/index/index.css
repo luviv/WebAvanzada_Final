@@ -1,0 +1,35 @@
+.index-container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(../../assets/images/background-index.png);
+    background-size: 100vw auto;
+}
+
+.index-container-logo {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.index-container-logo img{
+    width: 350px;
+    height: 400;
+}
+
+.index-container-logo button{
+    width: 274px;
+    height:58px;
+    font-size: 36px;
+    font-family: 'Montserrat';
+    font-weight:600;
+    color: #ffffff;
+    background-color: transparent;
+    background: none;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
